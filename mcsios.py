@@ -27,8 +27,8 @@ import httplib
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-deviceId = "Dss7LTN5"
-deviceKey = "H825eymNDtC1zaVs" 
+deviceId = "DESY8oan"
+deviceKey = "yYf2FMjd6aJCgHXb" 
 def post_to_mcs(payload): 
 	headers = {"Content-type": "application/json", "deviceKey": deviceKey} 
 	not_connected = 1 
